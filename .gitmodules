@@ -1,0 +1,3 @@
+[submodule "submodules/rclone.py"]
+	path = submodules/rclone.py
+	url = https://github.com/shlifedev/rclone.py
