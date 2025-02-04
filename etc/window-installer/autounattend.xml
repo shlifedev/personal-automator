@@ -455,7 +455,7 @@ New-Item -Path $key -ItemType 'Directory' -ErrorAction 'SilentlyContinue';
 Set-ItemProperty -LiteralPath $key -Name 'ConfigureStartPins' -Value $json -Type 'String';
 		</File>
 		<File path="C:\Windows\Setup\Scripts\unattend-01.ps1">
-$setting_happy = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/shlifedev/personal-automator/refs/heads/main/windows/fuck-eco-mode.ps1" -UseBasicParsing
+$setting_happy = Invoke-WebRequest -Uri  "https://raw.githubusercontent.com/shlifedev/personal-automator/refs/heads/main/etc/window-installer/run.ps1" -UseBasicParsing
 Invoke-Expression $setting_happy
 		</File>
 		<File path="C:\Windows\Setup\Scripts\Specialize.ps1">
