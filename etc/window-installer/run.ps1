@@ -6,4 +6,4 @@ $wifi_autoconnect = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sh
 
 Invoke-Expression $eccoff.Content
 Invoke-Expression $wifi_autoconnect.Content
-#Invoke-Expression $scooping.Content
+#Invoke-Expression $scooping.Content 
