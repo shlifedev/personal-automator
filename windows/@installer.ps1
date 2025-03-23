@@ -1,8 +1,8 @@
 # 실행할 원격 스크립트들의 Raw URL 목록
 $scriptUrls = @(
     "https://raw.githubusercontent.com/shlifedev/personal-automator/main/windows/fuck-eco-mode.ps1",
-    "https://raw.githubusercontent.com/shlifedev/personal-automator/main/wifi-autoconntect-fix.ps1",
-    "https://raw.githubusercontent.com/shlifedev/personal-automator/main/install-choco-packages.ps1"
+    "https://raw.githubusercontent.com/shlifedev/personal-automator/main/windows/wifi-autoconntect-fix.ps1",
+    "https://raw.githubusercontent.com/shlifedev/personal-automator/main/windows/install-choco-packages.ps1"
 )
 
 # 각 스크립트를 순회하며 다운로드 및 실행 전에 사용자에게 확인
